@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+    <record id="view_sale_prediction_graph" model="ir.ui.view">
+      <field name="name">sale.prediction.graph</field>
+      <field name="model">sale.prediction</field>
+      <field name="arch" type="xml">
+        <graph string="Sales Prédiction" type="line" sample="1">
+<!--          <field name="date" interval="day"/>-->
+<!--          <field name="price_subtotal" type="measure"/>-->
+        </graph>
+      </field>
+    </record>
+
+  </data>
+</odoo>

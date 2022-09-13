@@ -1,0 +1,12 @@
+<odoo>
+  <!-- This Menu Item must have a parent and an action -->
+  <record id="sale_prediction_action" model="ir.actions.act_window">
+    <field name="name">Sales prediction</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">sale.prediction</field>
+    <field name="view_mode">graph</field>
+  </record>
+  <menuitem id="menu_sale_prediction_action" name="Sales prediction" action="sale_prediction_action"
+            parent="sale.menu_sale_report" sequence="2"/>
+
+</odoo>
